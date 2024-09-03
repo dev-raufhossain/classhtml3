@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/26/12/29/milky-way-8999255_1280.jpg'   );
+    background-position: center;   
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: white;
+
+
+}
+
+/* H2 color change
+3type of color change
+1. color name 
+red, green, blue, yellow, pink, orange, black, white
+2. hex code
+#000000, #ffffff, #ff0000, #00ff00, #0000ff
+3. rgb code
+rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255)
+ */
+
+.color-change-heading{
+    color: green;
+    background-color: yellow;
+    border: 5px solid red;
+    padding: 50px;
+}
+
+.hello-boss{
+    border: 2px solid #00ff00;
+    margin: 100px 50px 20px 50px;
+    display: inline-block;
+    padding: 20px;
+}
+.color-change-paragraph{
+    text-align: right;
+}
+.button{
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.div1{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
